@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--***************** Line_view *****************-->
+    <!--线条,直-->
+    <style name="view_line_style1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#e7e7e7</item>
+    </style>
+
+    <!--灰线条,竖-->
+    <style name="view_line_style2">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#f0f0f0</item>
+    </style>
+
+    <style name="text_color63_style24">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_color63_style28" parent="text_color63_style24">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dialogTitleStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/_333333</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
